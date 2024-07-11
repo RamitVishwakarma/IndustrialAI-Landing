@@ -7,6 +7,17 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      black: "#000",
+      white: "#fff",
+      "slate-100": "#F1F5F9",
+      "slate-200": "#E2E8F0",
+      "slate-500": "#64748B",
+      "slate-950": "#020617",
+      "cyan-200": "#A5F3FC",
+      "emerald-200": "#A7F3D0",
+      "yellow-200": "#FEF08A",
+    },
     extend: {
       fontFamily: {
         Inter: ["Inter", "sans-serif"],

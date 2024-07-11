@@ -5,13 +5,16 @@
 @layer base {
   @font-face {
     font-family: "Satoshi";
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
     src: url(../assets/fonts/Satoshi.otf) format("otf");
   }
   @font-face {
     font-family: "Inter";
     src: url(../assets/fonts/Inter.ttf) format("ttf");
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
 }
