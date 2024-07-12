@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import RightArrow from "../../public/RightArrow.svg";
+import RightArrow from "../../../public/RightArrow.svg";
 
 const SectionOne = () => {
   return (
     <>
       <div className="flex flex-col gap-10 items-center text-center py-40">
         <div>
-          <button className="border border-[#0a0f2914] p-1 flex gap-1 items-center rounded-full">
+          <button className="border border-border-color p-1 flex gap-1 items-center rounded-full">
             <div className="bg-[#E9EAEC] text-slate-950 px-2 rounded-full font-medium">
               Update
             </div>
