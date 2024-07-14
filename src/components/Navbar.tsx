@@ -27,8 +27,8 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <button className="text-slate-950 bg-slate-100 px-3.5 py-1.5 rounded-[0.625rem] text-sm">
-          Book a demo
+        <button className="text-slate-950 bg-slate-100 px-[0.62rem] py-[0.38rem] rounded-[0.625rem] text-sm">
+          <span className="px-1">Book a demo</span>
         </button>
       </div>
     </>

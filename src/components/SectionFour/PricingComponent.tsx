@@ -40,7 +40,7 @@ export const PricingComponent = ({ data }: { data: dataProps }) => {
         <Image src={Divider} alt="divider" />
         <button
           className={`${data.buttonColor} w-full border px-3 py-[0.62rem] border-slate-200 box-shadow-xs rounded-xl`}>
-          {data.buttonText}
+          <span className="px-1">{data.buttonText}</span>
         </button>
       </div>
     </div>

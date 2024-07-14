@@ -40,10 +40,10 @@ const SectionOne = () => {
         </div>
         <div className="flex gap-4">
           <button className="px-3 py-[0.62rem] bg-slate-950 rounded-xl text-white font-medium">
-            Get started
+            <span className="px-1">Get started</span>
           </button>
           <button className="px-3 py-[0.62rem] text-slate-950 rounded-xl border border-slate-200 font-medium">
-            Watch demo
+            <span className="px-1">Watch demo</span>
           </button>
         </div>
       </div>
