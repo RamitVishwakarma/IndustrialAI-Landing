@@ -28,6 +28,7 @@ const config: Config = {
       "fuchsia-900": "#701A75",
       "lime-50": "#F7FEE7",
       "lime-800": "#3F6212",
+      "purple-200": "#E9D5FF",
     },
     extend: {
       fontFamily: {
