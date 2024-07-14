@@ -10,6 +10,7 @@ const config: Config = {
     colors: {
       black: "#000",
       white: "#fff",
+      "slate-50": "#F8FAFC",
       "slate-100": "#F1F5F9",
       "slate-200": "#E2E8F0",
       "slate-400": "#94A3B8",

@@ -26,7 +26,7 @@ const SectionThree = () => {
       </div>
 
       {/* part two part one*/}
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 py-20">
         <div className="w-full flex gap-6">
           {/* 1 */}
           <div className="w-[57%] border border-border-color rounded-3xl py-[0.87rem]">
