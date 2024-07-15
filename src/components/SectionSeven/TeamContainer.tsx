@@ -4,7 +4,7 @@ import { dataProps } from "./data";
 const TeamContainer = ({ data }: { data: dataProps }) => {
   return (
     <>
-      <div className="tracking-[-0.0125rem] p-10 bg-slate-50 rounded-3xl">
+      <div className="tracking-[-0.0125rem] p-10 bg-slate-50 rounded-3xl ">
         <div className="flex flex-col gap-4">
           <div
             className={`${data.avatarColor} relative w-16 h-16 rounded-full`}>

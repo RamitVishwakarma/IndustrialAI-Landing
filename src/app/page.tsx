@@ -5,6 +5,8 @@ import SectionTwo from "@/components/SectionTwo/SectionTwo";
 import SectionFive from "@/components/SectionFive/SectionFive";
 import SectionSix from "@/components/SectionSix/SectionSix";
 import SectionSeven from "@/components/SectionSeven/SectionSeven";
+import SectionEight from "@/components/SectionEight/SectionEight";
+import SectionNine from "@/components/SectionNine/SectionNine";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <SectionFive />
       <SectionSix />
       <SectionSeven />
+      <SectionEight />
+      <SectionNine />
     </div>
   );
 }

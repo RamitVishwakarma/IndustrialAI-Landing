@@ -29,6 +29,8 @@ const config: Config = {
       "lime-50": "#F7FEE7",
       "lime-800": "#3F6212",
       "purple-200": "#E9D5FF",
+      "red-100": "#FEE2E2",
+      "red-800": "#991B1B",
     },
     extend: {
       fontFamily: {
