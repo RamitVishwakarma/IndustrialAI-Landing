@@ -9,11 +9,9 @@ const TeamContainer = ({ data }: { data: dataProps }) => {
           <div
             className={`${data.avatarColor} relative w-16 h-16 rounded-full`}>
             <Image
-              className="absolute rounded-full"
+              className="absolute rounded-full w-16 h-16"
               src={data.avatar}
               alt="avatar"
-              width={64}
-              height={64}
             />
           </div>
           <div className="flex flex-col gap-2">

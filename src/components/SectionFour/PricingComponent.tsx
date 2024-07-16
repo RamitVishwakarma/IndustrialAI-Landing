@@ -30,8 +30,10 @@ export const PricingComponent = ({ data }: { data: dataProps }) => {
         </div>
         <Image src={Divider} alt="divider" />
         <ul className="flex flex-col gap-4 h-[14.5rem]">
-          {data.features.map((feature) => (
-            <li className="flex items-center gap-3 text-base -tracking-[0.0125rem]">
+          {data.features.map((feature, index) => (
+            <li
+              key={index}
+              className="flex items-center gap-3 text-base -tracking-[0.0125rem]">
               <Image src={CheckList} alt="check" />
               {feature}
             </li>

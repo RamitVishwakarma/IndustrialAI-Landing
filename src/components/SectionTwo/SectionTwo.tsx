@@ -10,7 +10,7 @@ const SectionTwo = () => {
           <br />
           non-numerical data to drive better decisions.
         </div>
-        <div>
+        <div className="pb-20">
           <VideoContainer />
         </div>
       </div>

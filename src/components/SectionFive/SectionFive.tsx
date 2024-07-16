@@ -20,7 +20,11 @@ const SectionFive = () => {
           </button>
         </div>
       </div>
-      <Image src={SectionFiveImage} width={764} height={514} alt="" />
+      <Image
+        className="max-w-[47.75rem] max-h-[32.125rem]"
+        src={SectionFiveImage}
+        alt=""
+      />
     </div>
   );
 };

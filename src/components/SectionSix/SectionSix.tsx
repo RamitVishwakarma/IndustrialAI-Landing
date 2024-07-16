@@ -6,11 +6,11 @@ const SectionSix = () => {
     <>
       <div className="flex flex-col items-center gap-10 py-20 bg-slate-50">
         <div className="flex gap-2">
-          <Image src={Star} width={20} height={20} alt="Star" />
-          <Image src={Star} width={20} height={20} alt="Star" />
-          <Image src={Star} width={20} height={20} alt="Star" />
-          <Image src={Star} width={20} height={20} alt="Star" />
-          <Image src={Star} width={20} height={20} alt="Star" />
+          <Image src={Star} className="w-5 h-5" alt="Star" />
+          <Image src={Star} className="w-5 h-5" alt="Star" />
+          <Image src={Star} className="w-5 h-5" alt="Star" />
+          <Image src={Star} className="w-5 h-5" alt="Star" />
+          <Image src={Star} className="w-5 h-5" alt="Star" />
         </div>
         <div className="text-center text-2xl leading-[2.75rem] tracking-[-0.04375rem]">
           “15 years ago, it wasn’t that hard to do what we do. Today, we offer

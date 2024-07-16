@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="flex items-center justify-between py-4 ">
         <div className="flex items-center gap-1.5">
-          <Image width={32} height={32} src={Logo} alt="Industrial AI" />
+          <Image className="w-8 h-8" src={Logo} alt="Industrial AI" />
           <span className="font-Satoshi w-fit font-medium text-base">
             Industrial AI
           </span>

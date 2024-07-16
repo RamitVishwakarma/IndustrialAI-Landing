@@ -17,7 +17,7 @@ const SectionThree = () => {
         <div className="flex gap-4">
           <button className="px-3 py-[0.62rem] text-white bg-slate-950 rounded-xl flex gap-2 items-center shadow-xs ">
             <span className="px-1">Book a demo</span>
-            <Image width={16} height={16} src={WhiteRightArrow} alt="arrow" />
+            <Image className="w-4 h-4" src={WhiteRightArrow} alt="arrow" />
           </button>
           <button className="text-slate-950 bg-white px-3 py-[0.62rem] border border-slate-200 rounded-xl">
             <span className="px-1">Learn more </span>

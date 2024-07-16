@@ -11,8 +11,10 @@ const TableContainer = ({ data }: { data: dataProps }) => {
           {data.title}
         </span>
         <ul className="flex flex-col gap-4">
-          {data.points.map((point) => (
-            <li className="flex items-center gap-2 text-slate-500 text-base leading-6 -tracking-[0.0125rem]">
+          {data.points.map((point, index) => (
+            <li
+              key={index}
+              className="flex items-center gap-2 text-slate-500 text-base leading-6 -tracking-[0.0125rem]">
               <Image src={CheckList} alt="check" />
               {point}
             </li>
