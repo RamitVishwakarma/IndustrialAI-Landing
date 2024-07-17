@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionFiveImage from "../../../public/SectionFive.svg";
+import SvgComponent from "./SectionFiveSvg";
 
 const SectionFive = () => {
   return (
@@ -20,7 +21,16 @@ const SectionFive = () => {
           </button>
         </div>
       </div>
-      <SectionFiveImage />
+      {/* 
+      <Image
+        className="max-w-[47.75rem] max-h-[32.125rem]  image-width!important "
+        src={SectionFiveImage}
+        alt=""
+      /> */}
+      <SvgComponent />
+      {/* <div className="max-w-[47.75rem] max-h-[32.125rem] ">
+        <SectionFiveImage />
+      </div> */}
     </div>
   );
 };
