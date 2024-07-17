@@ -7,12 +7,11 @@ const SectionFour = () => {
     <>
       <div className="bg-slate-50">
         <div className="flex flex-col gap-6 text-center py-20">
-          <div className="text-slate-950 font-medium text-5xl">
+          <div className="text-slate-950 font-medium text-5xl leading-[3.5rem] tracking-[-0.0625rem]">
             Simple and transparent pricing
           </div>
-          <div className="text-slate-500 text-2xl ">
-            Our pricing model works based on a percentage of your fully burdened{" "}
-            <br />
+          <div className="text-slate-500 text-xl mx-auto max-w-[36.75rem] leading-[1.75rem] tracking-[-0.0125rem] ">
+            Our pricing model works based on a percentage of your fully burdened
             labor costs.
           </div>
         </div>

@@ -10,9 +10,9 @@ const SectionThree = () => {
   return (
     <>
       <div className="flex flex-col gap-10 items-center font-medium py-20">
-        <div className="text-slate-950 text-4xl text-center leading-[2.75rem] -tracking-[0.04rem]">
-          We help you identify your pain points and build
-          <br />a solution that accelerates your business.
+        <div className="text-slate-950 max-w-[49.5rem] text-4xl text-center leading-[2.75rem] -tracking-[0.04rem]">
+          We help you identify your pain points and build a solution that
+          accelerates your business.
         </div>
         <div className="flex gap-4">
           <button className="px-3 py-[0.62rem] text-white bg-slate-950 rounded-xl flex gap-2 items-center shadow-xs ">

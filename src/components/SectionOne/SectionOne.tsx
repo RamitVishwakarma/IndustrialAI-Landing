@@ -34,7 +34,7 @@ const SectionOne = () => {
             </span>
             .
           </div>
-          <span className="text-slate-500 text-xl font-normal -tracking-[-0.0125rem]">
+          <span className="text-slate-500 mx-auto max-w-[36.75rem] text-xl font-normal -tracking-[-0.0125rem]">
             Leverage enterprise-wide data to make better decisions.
           </span>
         </div>

@@ -11,9 +11,9 @@ const Footer = () => {
             <div className="text-slate-950 font-medium text-xl leading-7 tracking[-0.0125rem]">
               Put AI to work.
             </div>
-            <div className="text-slate-500 text-base leading-6 tracking[-0.0125rem]">
-              Get in touch with our team to explore AI use cases for your <br />
-              organization. We&apos;ll work with you to identify the best <br />{" "}
+            <div className="text-slate-500 max-w-[28.125rem] text-base leading-6 tracking[-0.0125rem]">
+              Get in touch with our team to explore AI use cases for your
+              organization. We&apos;ll work with you to identify the best{" "}
               opportunities for AI to drive ROI.
             </div>
           </div>
