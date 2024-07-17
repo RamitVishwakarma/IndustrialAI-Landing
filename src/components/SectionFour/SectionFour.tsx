@@ -16,7 +16,7 @@ const SectionFour = () => {
           </div>
         </div>
         {/* end of sec-1 */}
-        <div className="flex py-20 gap-6">
+        <div className="grid md:grid-cols-3 justify-center py-20 gap-6">
           <PricingComponent data={PricingDataOne} />
           <PricingComponent data={PricingDataTwo} />
           <PricingComponent data={PricingDataThree} />

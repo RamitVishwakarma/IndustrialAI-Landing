@@ -7,8 +7,8 @@ import { dataProps } from "./data";
 export const PricingComponent = ({ data }: { data: dataProps }) => {
   return (
     <div
-      className={`${data.compColor} min-w-[18.75rem] w-[24rem] rounded-3xl border border-border-color`}>
-      <div className="w-[22.5rem] p-6 flex flex-col gap-6">
+      className={`${data.compColor} lg:min-w-[18.75rem] md:min-w-[16rem] max-w-[24rem] rounded-3xl border border-border-color`}>
+      <div className=" p-6 flex flex-col gap-6">
         <div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
@@ -29,7 +29,7 @@ export const PricingComponent = ({ data }: { data: dataProps }) => {
           </div>
         </div>
         <Image src={Divider} alt="divider" />
-        <ul className="flex flex-col gap-4 h-[14.5rem]">
+        <ul className="flex flex-col gap-4 h-[14.5rem] md:h-[16.5rem]">
           {data.features.map((feature, index) => (
             <li
               key={index}

@@ -32,3 +32,9 @@
   border-radius: 0.29475rem;
   border: 0.787px solid rgba(10, 15, 41, 0.08);
 }
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .image-width {
+    width: 50%;
+  }
+}

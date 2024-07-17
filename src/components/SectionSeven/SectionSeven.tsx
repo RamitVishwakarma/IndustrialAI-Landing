@@ -11,8 +11,8 @@ const SectionSeven = () => {
             We&apos;re a team of AI experts and industry veterans.
           </div>
           <div className="text-slate-500 max-w-[36.75rem] text-xl tracking-[-0.0125rem] leading-7">
-            Our team has a proven track record of delivering AI solutions <br />{" "}
-            that drive tangible ROI.
+            Our team has a proven track record of delivering AI solutions that
+            drive tangible ROI.
           </div>
           <button className="px-3 py-[0.62rem] mt-10 border border-border-color rounded-xl">
             <span className="px-1">Contact us</span>

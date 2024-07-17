@@ -10,7 +10,7 @@ const SectionThree = () => {
   return (
     <>
       <div className="flex flex-col gap-10 items-center font-medium py-20">
-        <div className="text-slate-950 max-w-[49.5rem] text-4xl text-center leading-[2.75rem] -tracking-[0.04rem]">
+        <div className="text-slate-950 max-w-[49.5rem] lg:text-4xl lg:leading-[2.75rem] md:text-3xl md:leading-[1.75rem] sm:text-2xl sm:leading-4 text-xl leading-3 text-center -tracking-[0.04rem]">
           We help you identify your pain points and build a solution that
           accelerates your business.
         </div>
@@ -26,10 +26,10 @@ const SectionThree = () => {
       </div>
 
       {/* part two part one*/}
-      <div className="flex flex-col gap-6 py-20">
-        <div className="w-full flex gap-6">
+      <div className="grid justify-center lg:grid-rows-2 gap-6 py-20">
+        <div className="grid  lg:grid-cols-12 max-lg:grid-rows-2 lg:row-span-1 gap-6">
           {/* 1 */}
-          <div className="w-[57%] border border-border-color rounded-3xl py-[0.87rem]">
+          <div className="lg:col-span-7 max-lg:row-span-1 border border-border-color rounded-3xl py-[0.87rem]">
             <div className="flex flex-col gap-6 p-8">
               <div className="bg-blue-50 text-blue-900 py-1 px-[0.62rem] font-medium w-fit border border-border-color rounded-lg">
                 1
@@ -59,7 +59,7 @@ const SectionThree = () => {
             </div>
           </div>
           {/* 2 */}
-          <div className="w-1/3 border border-border-color rounded-3xl py-[0.87rem]">
+          <div className="lg:col-span-5 max-lg:row-span-1 border border-border-color rounded-3xl py-[0.87rem]">
             <div className="flex flex-col gap-6 p-8">
               <div className="bg-fuchsia-50 text-fuchsia-900 py-1 px-[0.62rem] font-medium w-fit border border-border-color rounded-lg">
                 2
@@ -90,10 +90,10 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-        {/* 1 & 2 end */}
-        {/* 3 */}
-        <div className="w-full flex gap-6">
-          <div className="w-1/3 border border-border-color rounded-3xl py-[0.87rem]">
+
+        <div className="grid max-lg:grid-rows-2 lg:grid-cols-12 lg:row-span-1 gap-6">
+          {/* 3 */}
+          <div className="lg:col-span-5 max-lg:row-span-1 border border-border-color rounded-3xl py-[0.87rem]">
             <div className="flex flex-col gap-6 p-8">
               <div className="bg-cyan-50 text-cyan-900 py-1 px-[0.62rem] font-medium w-fit border border-border-color rounded-lg">
                 3
@@ -124,7 +124,7 @@ const SectionThree = () => {
             </div>
           </div>
           {/* 4 */}
-          <div className="w-[57%] border border-border-color rounded-3xl py-[0.87rem]">
+          <div className="lg:col-span-7 max-lg:row-span-1 border border-border-color rounded-3xl py-[0.87rem]">
             <div className="flex flex-col gap-6 p-8">
               <div className="bg-lime-50 text-lime-900 py-1 px-[0.62rem] font-medium w-fit border border-border-color rounded-lg">
                 4

@@ -6,7 +6,7 @@ const SectionTwo = () => {
   return (
     <>
       <div className="flex flex-col bg-slate-50">
-        <div className="text-slate-950 max-w-[49.5rem] leading-[2.75rem] -tracking-[0.04375rem] mx-auto text-center font-medium py-20 text-4xl">
+        <div className="text-slate-950 max-w-[49.5rem] mx-auto text-center font-medium py-20 lg:text-4xl lg:leading-[2.75rem] md:text-3xl md:leading-8 sm:text-2xl sm:leading-6 text-xl leading-5 -tracking-[0.04375rem] ">
           Industrial AI makes sense of your numerical and non-numerical data to
           drive better decisions.
         </div>

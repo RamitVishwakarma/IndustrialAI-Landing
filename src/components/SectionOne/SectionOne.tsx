@@ -16,7 +16,7 @@ const SectionOne = () => {
           </button>
         </div>
         <div className="flex flex-col gap-6">
-          <div className="font-[450] text-[4rem] text-slate-950 leading-[4.5rem] -tracking-[0.10625rem]">
+          <div className="font-[450] lg:leading-[4.5rem] lg:text-[4rem] md:text-[3rem] md:leading-[3.375rem] sm:text-[2rem] sm:leading-[2.25rem] text-2xl text-slate-950  -tracking-[0.10625rem]">
             Optimize{" "}
             <span className="underline underline-offset-[0.5rem] decoration-cyan-200">
               decision-making
@@ -34,7 +34,7 @@ const SectionOne = () => {
             </span>
             .
           </div>
-          <span className="text-slate-500 mx-auto max-w-[36.75rem] text-xl font-normal -tracking-[-0.0125rem]">
+          <span className="text-slate-500 mx-auto max-w-[36.75rem] lg:text-xl lg:leading-7 md:text-lg md:leading-5 sm:text-base sm:leading-4 text-sm leading-3 font-normal -tracking-[-0.0125rem]">
             Leverage enterprise-wide data to make better decisions.
           </span>
         </div>

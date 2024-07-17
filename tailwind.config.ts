@@ -33,6 +33,11 @@ const config: Config = {
       "red-100": "#FEE2E2",
       "red-800": "#991B1B",
     },
+    screens: {
+      lg: "1200px",
+      md: "800px",
+      sm: "400px",
+    },
     extend: {
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
