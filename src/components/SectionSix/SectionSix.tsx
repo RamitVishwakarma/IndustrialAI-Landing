@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Star from "../../../public/star.svg";
+import Star from "../../../public/Star.svg";
 
 const SectionSix = () => {
   return (

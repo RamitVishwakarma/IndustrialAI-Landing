@@ -27,3 +27,8 @@
   box-shadow: 0px 7.867px 12.587px -2.36px rgba(20, 21, 26, 0.08),
     0px 2.36px 4.72px -1.573px rgba(20, 21, 26, 0.05);
 }
+
+.border-vid {
+  border-radius: 0.29475rem;
+  border: 0.787px solid rgba(10, 15, 41, 0.08);
+}

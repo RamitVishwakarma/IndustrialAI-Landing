@@ -7,23 +7,37 @@ import SectionSix from "@/components/SectionSix/SectionSix";
 import SectionSeven from "@/components/SectionSeven/SectionSeven";
 import SectionEight from "@/components/SectionEight/SectionEight";
 import SectionNine from "@/components/SectionNine/SectionNine";
-import SectionTen from "@/components/SectionTen/SectionTen";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="">
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFour />
-      <SectionFive />
-      <SectionSix />
-      <SectionSeven />
-      <SectionEight />
-      <SectionNine />
-      <SectionTen />
-      <Footer />
+    <div className="[&>*:nth-child(odd)]:bg-white [&>*:nth-child(even)]:bg-slate-50">
+      <div>
+        <SectionOne />
+      </div>
+      <div>
+        <SectionTwo />
+      </div>
+      <div>
+        <SectionThree />
+      </div>
+      <div>
+        <SectionFour />
+      </div>
+      <div>
+        <SectionFive />
+      </div>
+      <div>
+        <SectionSix />
+      </div>
+      <div>
+        <SectionSeven />
+      </div>
+      <div>
+        <SectionEight />
+      </div>
+      <div>
+        <SectionNine />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Put AI to work | Industrial AI",
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="max-w-[1200px] mx-auto">
+      <body>
         <Navbar />
-        {children}
+        <main className="max-w-[1200px] mx-auto">{children}</main>
+        <Footer />
       </body>
     </html>
   );
