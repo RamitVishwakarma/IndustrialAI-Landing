@@ -7,36 +7,55 @@ import SectionSix from "@/components/SectionSix/SectionSix";
 import SectionSeven from "@/components/SectionSeven/SectionSeven";
 import SectionEight from "@/components/SectionEight/SectionEight";
 import SectionNine from "@/components/SectionNine/SectionNine";
+import Wrapper from "@/components/Wrapper";
 
 export default function Home() {
   return (
     <div className="[&>*:nth-child(odd)]:bg-white [&>*:nth-child(even)]:bg-slate-50">
       <div>
-        <SectionOne />
+        <Wrapper>
+          <SectionOne />
+        </Wrapper>
       </div>
       <div>
-        <SectionTwo />
+        <Wrapper>
+          <SectionTwo />
+        </Wrapper>
       </div>
       <div>
-        <SectionThree />
+        <Wrapper>
+          <SectionThree />
+        </Wrapper>
       </div>
       <div>
-        <SectionFour />
+        <Wrapper>
+          <SectionFour />
+        </Wrapper>
       </div>
       <div>
-        <SectionFive />
+        <Wrapper>
+          <SectionFive />
+        </Wrapper>
       </div>
       <div>
-        <SectionSix />
+        <Wrapper>
+          <SectionSix />
+        </Wrapper>
       </div>
       <div>
-        <SectionSeven />
+        <Wrapper>
+          <SectionSeven />
+        </Wrapper>
       </div>
       <div>
-        <SectionEight />
+        <Wrapper>
+          <SectionEight />
+        </Wrapper>
       </div>
       <div>
-        <SectionNine />
+        <Wrapper>
+          <SectionNine />
+        </Wrapper>
       </div>
     </div>
   );

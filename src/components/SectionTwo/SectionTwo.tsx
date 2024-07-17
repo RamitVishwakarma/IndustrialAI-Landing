@@ -1,5 +1,6 @@
 import React from "react";
 import VideoContainer from "./VideoContainer";
+import Wrapper from "../Wrapper";
 
 const SectionTwo = () => {
   return (
