@@ -8,7 +8,7 @@ const SectionSeven = () => {
       <div className="pt-20">
         <div className="flex flex-col items-center text-center gap-6">
           <div className="text-slate-950 text-5xl font-medium leading-[3.5rem] tracking-[-0.0625rem]">
-            We're a team of AI experts and <br /> industry veterans.
+            We&apos;re a team of AI experts and <br /> industry veterans.
           </div>
           <div className="text-slate-500 text-xl tracking-[-0.0125rem] leading-7">
             Our team has a proven track record of delivering AI solutions <br />{" "}

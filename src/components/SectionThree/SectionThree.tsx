@@ -43,9 +43,9 @@ const SectionThree = () => {
                     Where are you manually doing things that could be automated?
                   </div>
                   <div className="italic text-slate-400">
-                    e.g. You're spending too much time manually quoting your
-                    customers, leading to <br /> slow response times and lost
-                    sales.
+                    e.g. You&apos;re spending too much time manually quoting
+                    your customers, leading to <br /> slow response times and
+                    lost sales.
                   </div>
                 </div>
               </div>
@@ -70,10 +70,12 @@ const SectionThree = () => {
                     Eliminate the pain
                   </div>
                   <div className="text-slate-500 text-base">
-                    We'll automate your workflow to eliminate the pain points.
+                    We&apos;ll automate your workflow to eliminate the pain
+                    points.
                   </div>
                   <div className="italic text-slate-400">
-                    e.g. Industrial AI takes in your customer's RFQs and <br />
+                    e.g. Industrial AI takes in your customer&apos;s RFQs and{" "}
+                    <br />
                     automatically generates a quote for you.
                   </div>
                 </div>
@@ -106,7 +108,8 @@ const SectionThree = () => {
                     moving.
                   </div>
                   <div className="italic text-slate-400">
-                    e.g. Industrial AI takes in your customer's RFQs and <br />
+                    e.g. Industrial AI takes in your customer&apos;s RFQs and{" "}
+                    <br />
                     automatically generates a quote for you.
                   </div>
                 </div>
