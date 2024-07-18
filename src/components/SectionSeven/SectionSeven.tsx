@@ -18,7 +18,7 @@ const SectionSeven = () => {
             <span className="px-1">Contact us</span>
           </button>
         </div>
-        <div className="py-20 grid grid-cols-2 gap-6">
+        <div className="py-20 grid lg:grid-cols-2 grid-cols-1 gap-6 w-fit mx-auto ">
           <TeamContainer data={DataOne} />
           <TeamContainer data={DataTwo} />
           <TeamContainer data={DataThree} />

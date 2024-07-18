@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="px-8 flex items-center justify-between py-4 sticky top-0 z-10 backdrop-blur-xl">
+      <div className="px-[7.5rem] flex items-center justify-between py-4 sticky top-0 z-10 backdrop-blur-xl">
         <div className="flex items-center gap-1.5">
           <Logo className="w-8 h-8" />
           {/* <Image className="w-8 h-8" src={Logo} alt="Industrial AI" /> */}

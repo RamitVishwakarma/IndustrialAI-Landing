@@ -18,7 +18,7 @@ export const DataOne = {
   name: "Sahitya Senapathy",
   designation: "Founder and CEO",
   description:
-    "Sahitya built Palantir's (NYSE: PLTR) first <br />  commercialized  Large Language Model (LLM) product <br /> and led an 8-figure Generative AI implementation for a <br /> Fortune 200 manufacturer. He has built Gen AI <br /> products at AWS and the Air Force Research Lab. He is <br /> a UPenn CS and Wharton finance graduate.",
+    "Sahitya built Palantir's (NYSE: PLTR) first   commercialized  Large Language Model (LLM) product  and led an 8-figure Generative AI implementation for a  Fortune 200 manufacturer. He has built Gen AI  products at AWS and the Air Force Research Lab. He is  a UPenn CS and Wharton finance graduate.",
 };
 
 export const DataTwo = {
@@ -27,7 +27,7 @@ export const DataTwo = {
   name: "Josh Ludan",
   designation: "Generative AI Lead",
   description:
-    "Josh Ludan is a PhD candidate at the University of <br /> Pennsylvania, where he researches cutting-edge <br /> properties of Large Language Models and multi-modal <br /> AI. He has published 6 research papers on AI in past <br /> year and previously worked as a quantitative trader on <br /> Wall Street.",
+    "Josh Ludan is a PhD candidate at the University of  Pennsylvania, where he researches cutting-edge  properties of Large Language Models and multi-modal  AI. He has published 6 research papers on AI in past  year and previously worked as a quantitative trader on  Wall Street.",
 };
 
 export const DataThree = {
@@ -36,7 +36,7 @@ export const DataThree = {
   name: "Sonny Tara",
   designation: "Board of Advistors",
   description:
-    "Sonny is the former COO and CFO of Oshkosh Corp <br /> (NYSE: OSK), a Fortune 500 manufacturing company, <br /> and was Group President of Marmon Holdings, a <br /> Berkshire Hathaway industrial company. He has over <br /> 30 years of experience in the manufacturing and <br /> supply chain industries.",
+    "Sonny is the former COO and CFO of Oshkosh Corp  (NYSE: OSK), a Fortune 500 manufacturing company,  and was Group President of Marmon Holdings, a  Berkshire Hathaway industrial company. He has over  30 years of experience in the manufacturing and  supply chain industries.",
 };
 
 export const DataFour = {
@@ -45,5 +45,5 @@ export const DataFour = {
   name: "Chris Featherstone",
   designation: "Board of Advistors",
   description:
-    "Chris is a technology executive at Amazon Web Services <br /> (AWS) where he leads Generative AI Go-to-<br />Market strategy. He previously held senior product <br /> leadership positions at Salesforce and Cisco. He has <br /> over 20 years of experience in artificial intelligence and <br /> machine learning.",
+    "Chris is a technology executive at Amazon Web Services  (AWS) where he leads Generative AI Go-to-Market strategy. He previously held senior product  leadership positions at Salesforce and Cisco. He has  over 20 years of experience in artificial intelligence and  machine learning.",
 };

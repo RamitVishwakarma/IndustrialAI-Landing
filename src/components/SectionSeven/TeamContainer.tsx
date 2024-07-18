@@ -21,10 +21,8 @@ const TeamContainer = ({ data }: { data: dataProps }) => {
             <div className="text-slate-500 leading-6">{data.designation}</div>
           </div>
         </div>
-        <div
-          dangerouslySetInnerHTML={{ __html: data.description }}
-          className="text-slate-950 text-xl leading-8 tracking-[-0.01875rem] pt-10">
-          {/* {data.description} */}
+        <div className="text-slate-950 text-xl leading-8 tracking-[-0.01875rem] pt-10 lg:max-w-[31.75rem] max-w-[35rem]">
+          {data.description}
         </div>
       </div>
     </>

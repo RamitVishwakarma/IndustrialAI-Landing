@@ -5,7 +5,7 @@ import Logo from "../../public/Logo.svg";
 const Footer = () => {
   return (
     <>
-      <div className="px-8 bg-slate-50">
+      <div className="px-[7.5rem] bg-slate-50">
         <div className="flex justify-between py-10">
           <div className="flex flex-col gap-3">
             <div className="text-slate-950 font-medium text-xl leading-7 tracking[-0.0125rem]">
