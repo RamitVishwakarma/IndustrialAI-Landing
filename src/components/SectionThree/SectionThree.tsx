@@ -17,7 +17,8 @@ const SectionThree = () => {
         <div className="flex gap-4">
           <button className="px-3 py-[0.62rem] text-white bg-slate-950 rounded-xl flex gap-2 items-center shadow-xs ">
             <span className="px-1">Book a demo</span>
-            <Image className="w-4 h-4" src={WhiteRightArrow} alt="arrow" />
+            <WhiteRightArrow />
+            {/* <Image className="w-4 h-4" src={WhiteRightArrow} alt="arrow" /> */}
           </button>
           <button className="text-slate-950 bg-white px-3 py-[0.62rem] border border-slate-200 rounded-xl">
             <span className="px-1">Learn more </span>
@@ -51,11 +52,12 @@ const SectionThree = () => {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <Image
+              <SectionThreePartOne className="pb-6" />
+              {/* <Image
                 className="pb-6"
                 src={SectionThreePartOne}
                 alt="part two"
-              />
+              /> */}
             </div>
           </div>
           {/* 2 */}
@@ -82,11 +84,12 @@ const SectionThree = () => {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <Image
+              <SectionThreePartTwo className="pb-6" />
+              {/* <Image
                 className="pb-6"
                 src={SectionThreePartTwo}
                 alt="part two"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -116,11 +119,12 @@ const SectionThree = () => {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <Image
+              <SectionThreePartThree />
+              {/* <Image
                 className="mt-10"
                 src={SectionThreePartThree}
                 alt="part three"
-              />
+              /> */}
             </div>
           </div>
           {/* 4 */}
@@ -147,11 +151,12 @@ const SectionThree = () => {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <Image
+              <SectionThreePartFour className="py-8" />
+              {/* <Image
                 className="py-8"
                 src={SectionThreePartFour}
                 alt="part four"
-              />
+              /> */}
             </div>
           </div>
         </div>

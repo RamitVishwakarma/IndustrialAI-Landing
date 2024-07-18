@@ -12,7 +12,8 @@ const SectionOne = () => {
               Update
             </div>
             <span className="font-medium px-1">We’re hiring</span>
-            <Image className="w-4 h-4" src={RightArrow} alt="Right Arrow" />
+            <RightArrow />
+            {/* <Image className="w-4 h-4" src={RightArrow} alt="Right Arrow" /> */}
           </button>
         </div>
         <div className="flex flex-col gap-6">

@@ -1,7 +1,6 @@
 import React from "react";
 import TableContainer from "./TableContainer";
 import { dataOne, dataTwo, dataThree } from "./data";
-import Image from "next/image";
 import Lock from "../../../public/Lock.svg";
 
 const SectionEight = () => {
@@ -25,7 +24,8 @@ const SectionEight = () => {
             <button className="border bg-white border-slate-200 rounded-xl box-shadow-xs px-3 py-[0.62rem]">
               <span className="px-1">Learn more</span>
             </button>
-            <Image src={Lock} alt="" className="absolute right-0 top-20" />
+            <Lock className="absolute right-0 top-20" />
+            {/* <Image src={Lock} alt="" className="absolute right-0 top-20" /> */}
           </div>
         </div>
         <div className="py-20 grid grid-cols-3 gap-8">

@@ -15,7 +15,8 @@ const TableContainer = ({ data }: { data: dataProps }) => {
             <li
               key={index}
               className="flex items-center gap-2 text-slate-500 text-base leading-6 -tracking-[0.0125rem]">
-              <Image src={CheckList} alt="check" />
+              <CheckList />
+              {/* <Image src={CheckList} alt="check" /> */}
               {point}
             </li>
           ))}

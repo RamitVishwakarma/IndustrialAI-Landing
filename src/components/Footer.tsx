@@ -25,7 +25,8 @@ const Footer = () => {
         </div>
         <div className="py-10 flex justify-between">
           <div className="flex items-center gap-1.5">
-            <Image className="w-8 h-8" src={Logo} alt="Industrial AI" />
+            <Logo className="w-8 h-8" />
+            {/* <Image className="w-8 h-8" src={Logo} alt="Industrial AI" /> */}
             <span className="font-Satoshi w-fit font-medium text-base">
               Industrial AI
             </span>
