@@ -1,4 +1,6 @@
-import SectionFiveImage from "../../../public/SectionFive.svg";
+// import SectionFiveImage from "../../../public/SectionFive.svg";
+import Image from "next/image";
+import SectionFiveImage from "../../../public/images/SectionFive.png";
 
 const SectionFive = () => {
   return (
@@ -19,9 +21,7 @@ const SectionFive = () => {
           </button>
         </div>
       </div>
-      <div>
-        <SectionFiveImage />
-      </div>
+      <Image src={SectionFiveImage} alt="" />
     </div>
   );
 };
