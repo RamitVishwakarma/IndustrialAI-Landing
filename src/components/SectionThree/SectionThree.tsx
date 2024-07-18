@@ -51,13 +51,8 @@ const SectionThree = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center">
-              <SectionThreePartOne className="pb-6" />
-              {/* <Image
-                className="pb-6"
-                src={SectionThreePartOne}
-                alt="part two"
-              /> */}
+            <div className="flex items-center justify-center pb-6">
+              <SectionThreePartOne />
             </div>
           </div>
           {/* 2 */}
@@ -83,13 +78,8 @@ const SectionThree = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center">
-              <SectionThreePartTwo className="pb-6" />
-              {/* <Image
-                className="pb-6"
-                src={SectionThreePartTwo}
-                alt="part two"
-              /> */}
+            <div className="flex items-center justify-center pb-6">
+              <SectionThreePartTwo />
             </div>
           </div>
         </div>
@@ -118,13 +108,8 @@ const SectionThree = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center mt-10">
               <SectionThreePartThree />
-              {/* <Image
-                className="mt-10"
-                src={SectionThreePartThree}
-                alt="part three"
-              /> */}
             </div>
           </div>
           {/* 4 */}
@@ -150,13 +135,8 @@ const SectionThree = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center">
-              <SectionThreePartFour className="py-8" />
-              {/* <Image
-                className="py-8"
-                src={SectionThreePartFour}
-                alt="part four"
-              /> */}
+            <div className="flex items-center justify-center py-8">
+              <SectionThreePartFour />
             </div>
           </div>
         </div>
