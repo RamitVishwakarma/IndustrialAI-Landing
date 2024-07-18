@@ -12,7 +12,7 @@ const SectionEight = () => {
             <div className="px-1 text-red-800 font-medium">Security</div>
           </div>
           <div className="flex flex-col gap-10 z-10">
-            <div className="text-slate-950 font-medium  max-w-[49.5rem] tracking-[-0.0625rem] leading-[3.5rem] text-5xl">
+            <div className="text-slate-950 font-medium  max-w-[49.5rem] tracking-[-0.0625rem] lg:leading-[3.5rem] lg:text-5xl md:text-4xl text-3xl">
               Enterprise-grade security, privacy, and deployment.
             </div>
             <div className="text-slate-500 text-xl max-w-[36.75rem] -tracking-[0.0125rem] leading-7 max-md:mx-auto max-md:text-center">

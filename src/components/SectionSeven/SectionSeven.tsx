@@ -7,10 +7,10 @@ const SectionSeven = () => {
     <>
       <div className="pt-20">
         <div className="flex flex-col items-center text-center gap-6">
-          <div className="text-slate-950 max-w-[49.5rem] text-5xl font-medium leading-[3.5rem] tracking-[-0.0625rem]">
+          <div className="text-slate-950 max-w-[49.5rem] lg:text-5xl md:text-4xl text-3xl font-medium lg:leading-[3.5rem] tracking-[-0.0625rem]">
             We&apos;re a team of AI experts and industry veterans.
           </div>
-          <div className="text-slate-500 max-w-[36.75rem] text-xl tracking-[-0.0125rem] leading-7">
+          <div className="text-slate-500 max-w-[36.75rem] lg:text-xl text-lg tracking-[-0.0125rem] leading-7">
             Our team has a proven track record of delivering AI solutions that
             drive tangible ROI.
           </div>

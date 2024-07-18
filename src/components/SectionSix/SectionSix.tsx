@@ -4,7 +4,7 @@ import Star from "../../../public/Star.svg";
 const SectionSix = () => {
   return (
     <>
-      <div className="flex flex-col items-center gap-10 py-20 bg-slate-50">
+      <div className="flex flex-col items-center gap-10 py-20 bg-slate-50 max-md:text-center">
         <div className="flex gap-2">
           <Star />
           <Star />
