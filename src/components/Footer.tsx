@@ -5,8 +5,8 @@ import Logo from "../../public/Logo.svg";
 const Footer = () => {
   return (
     <>
-      <div className="px-[7.5rem] bg-slate-50">
-        <div className="flex justify-between py-10">
+      <div className="px-10 lg:px-[7.5rem] bg-slate-50">
+        <div className="flex max-md:items-center max-md:flex-col max-md:gap-8 max-md:text-center justify-between  py-10">
           <div className="flex flex-col gap-3">
             <div className="text-slate-950 font-medium text-xl leading-7 tracking[-0.0125rem]">
               Put AI to work.
@@ -23,7 +23,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="py-10 flex justify-between">
+        <div className="py-10 flex max-md:flex-col max-md:items-center max-md:gap-4 justify-between">
           <div className="flex items-center gap-1.5">
             <Logo className="w-8 h-8" />
             {/* <Image className="w-8 h-8" src={Logo} alt="Industrial AI" /> */}
@@ -31,7 +31,7 @@ const Footer = () => {
               Industrial AI
             </span>
           </div>
-          <ul className="flex appearance-none text-slate-500 gap-6 items-center text-[0.875rem] font-medium tracking-[-0.00625rem] leading-5">
+          <ul className="flex appearance-none max-md:flex-col text-slate-500 gap-6 items-center text-[0.875rem] font-medium tracking-[-0.00625rem] leading-5">
             <li className="underline">
               <a href="#">support@getindustrial.ai</a>
             </li>
