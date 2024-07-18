@@ -55,7 +55,7 @@ const VideoContainer = () => {
       </div>
       <div
         ref={containerRef}
-        className="flex gap-16 overflow-x-hidden snap-x pt-12">
+        className="flex gap-16 overflow-x-hidden snap-x pt-12 ">
         <div ref={videoRefs[0]} className="flex-none w-[82%] snap-start">
           <Videos data={dataOne} />
         </div>
