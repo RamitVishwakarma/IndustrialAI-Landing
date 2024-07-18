@@ -39,7 +39,7 @@ const VideoContainer = () => {
 
   return (
     <>
-      <div className="flex items-center gap-6 border-b border-border-color w-fit mx-auto">
+      <div className="flex max-md:flex-col max-md:gap-2 items-center gap-6 border-b border-border-color w-fit mx-auto">
         {buttons.map((button, index) => (
           <button
             key={index}

@@ -23,8 +23,8 @@ const Videos = ({ data }: { data: dataInterface }) => {
 
   return (
     <>
-      <div className="flex flex-col rounded-3xl bg-white border border-border-color">
-        <div className="pt-8 px-10 flex gap-4 justify-between">
+      <div className="flex flex-col rounded-3xl bg-white border border-border-color max-w-[64rem] ">
+        <div className="pt-8 px-10 flex gap-4 justify-between max-md:flex-col">
           <div className="text-slate-500 text-base leading-6 tracking-[-0.0125rem]">
             {data.description}
           </div>
@@ -32,7 +32,7 @@ const Videos = ({ data }: { data: dataInterface }) => {
             <span className="px-1">{data.descButtonText}</span>
           </button>
         </div>
-        <div className="py-6 px-10 flex flex-col items-center rounded-b-3xl">
+        <div className="py-6 px-10 flex flex-col items-center rounded-b-3xl ">
           <div className="video-box-shadow rounded-b-[0.5895rem] border-vid flex flex-col items-center">
             {/* Toolbar */}
             <div className="px-4 py-[0.59rem] flex gap-[0.39rem] items-start w-full">
