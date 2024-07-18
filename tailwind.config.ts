@@ -20,6 +20,7 @@ const config: Config = {
       "cyan-50": "#ECFEFF",
       "cyan-200": "#A5F3FC",
       "cyan-300": "#67E8F9",
+      "cyan-600": "#0891B2",
       "cyan-800": "#155E75",
       "emerald-200": "#A7F3D0",
       "yellow-200": "#FEF08A",

@@ -9,7 +9,7 @@ const SectionTwo = () => {
           Industrial AI makes sense of your numerical and non-numerical data to
           drive better decisions.
         </div>
-        <div className="pb-20">
+        <div className="pb-20 lg:pl-[13rem]">
           <VideoContainer />
         </div>
       </div>

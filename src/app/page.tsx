@@ -18,9 +18,7 @@ export default function Home() {
         </Wrapper>
       </div>
       <div>
-        <Wrapper>
-          <SectionTwo />
-        </Wrapper>
+        <SectionTwo />
       </div>
       <div>
         <Wrapper>

@@ -56,19 +56,19 @@ const VideoContainer = () => {
       <div
         ref={containerRef}
         className="flex gap-16 overflow-x-hidden snap-x pt-12 ">
-        <div ref={videoRefs[0]} className="flex-none w-[82%] snap-start">
+        <div ref={videoRefs[0]} className="flex-none w-fit snap-start">
           <Videos data={dataOne} />
         </div>
-        <div ref={videoRefs[1]} className="flex-none w-[82%] snap-start">
+        <div ref={videoRefs[1]} className="flex-none w-fit snap-start">
           <Videos data={dataTwo} />
         </div>
-        <div ref={videoRefs[2]} className="flex-none w-[82%] snap-start">
+        <div ref={videoRefs[2]} className="flex-none w-fit snap-start">
           <Videos data={dataThree} />
         </div>
-        <div ref={videoRefs[3]} className="flex-none w-[82%] snap-start">
+        <div ref={videoRefs[3]} className="flex-none w-fit snap-start">
           <Videos data={dataFour} />
         </div>
-        <div ref={videoRefs[4]} className="flex-none w-[82%] snap-start">
+        <div ref={videoRefs[4]} className="flex-none w-fit snap-start">
           <Videos data={dataFive} />
         </div>
       </div>
