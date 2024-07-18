@@ -7,7 +7,7 @@ const SectionEight = () => {
   return (
     <>
       <div className="bg-slate-50">
-        <div className="flex flex-col gap-10 pt-20 relative">
+        <div className="flex flex-col gap-10 pt-20 relative max-md:items-center max-md:text-center">
           <div className="px-[0.38rem] py-1 bg-red-100 border border-border-color w-fit rounded-full ">
             <div className="px-1 text-red-800 font-medium">Security</div>
           </div>
@@ -15,7 +15,7 @@ const SectionEight = () => {
             <div className="text-slate-950 font-medium  max-w-[49.5rem] tracking-[-0.0625rem] leading-[3.5rem] text-5xl">
               Enterprise-grade security, privacy, and deployment.
             </div>
-            <div className="text-slate-500 text-xl max-w-[36.75rem] -tracking-[0.0125rem] leading-7">
+            <div className="text-slate-500 text-xl max-w-[36.75rem] -tracking-[0.0125rem] leading-7 max-md:mx-auto max-md:text-center">
               We take security seriously. Your data is encrypted, hosted in
               secure data centers, and we undergo regular security audits.
             </div>
